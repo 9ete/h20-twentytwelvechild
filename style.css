@@ -1,0 +1,51 @@
+/*
+ Theme Name:   H20 Dry - LowerMedia Custom Theme
+ Theme URI:    http://example.com/twenty-twelve-child/
+ Description:  Twentytwelve Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     twentytwelve
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentytwelve-child
+*/
+
+@import url("../twentytwelve/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+h2 {
+	font-size: 20px;
+	text-align:center;
+	text-transform: uppercase;
+	font-weight:normal;
+}
+
+h2 span {
+	font-weight: bold;
+}
+
+.site {
+	margin: 0 auto;
+	box-shadow: none;
+}
+
+.site-header {padding:0;}
+
+.header-image {width: 100%;}
+
+.main-navigation {
+	border-bottom: 1px solid #ededed;
+	border-top: 1px solid #ededed;
+	margin-top:0px;
+}
+
+.menu-sub-header-main-menu-container {
+	width: 68.571428571rem;
+	margin: auto;
+}
+
+.main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {border:none;}
+
+.home .site-content {width:100%;}
