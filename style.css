@@ -62,3 +62,8 @@ h2 span {
 	float:left;
 	margin:0 10px;
 }
+
+footer .menu-item {
+	width: 25%;
+	float: left;
+}
