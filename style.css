@@ -63,7 +63,18 @@ h2 span {
 	margin:0 10px;
 }
 
+.footer-left {
+	float: left;
+	height: 120px;
+	width: 25%;
+}
+
 footer .menu-item {
 	width: 25%;
 	float: left;
+}
+
+footer .site-info {
+clear: both;
+text-align: center;
 }
