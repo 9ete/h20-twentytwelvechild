@@ -49,3 +49,16 @@ h2 span {
 .main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {border:none;}
 
 .home .site-content {width:100%;}
+
+.menu-social-media-header-top-menu-container {
+	position:relative;
+	float:right;
+	top: 65px;
+	right: 90px;
+}
+
+.menu-social-media-header-top-menu-container li {
+	display:inline-block;
+	float:left;
+	margin:0 10px;
+}
