@@ -23,9 +23,11 @@
 		</div>
 
 		<div class="site-info">
-			<?php do_action( 'twentytwelve_credits' ); ?>
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'twentytwelve' ) ); ?>" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'twentytwelve' ); ?>">
-				<?php printf( __( 'Proudly powered by %s', 'twentytwelve' ), 'WordPress' ); ?>
+			<p>Copyright © 2014, H2Odry.com, All Rights Reserved</p>
+		
+			<?php //do_action( 'twentytwelve_credits' ); ?>
+			<a href="<?php echo esc_url( __( 'http://lowermedia.net/', 'lowermedia' ) ); ?>" title="<?php esc_attr_e( 'Primo Web Applications', 'lowermedia' ); ?>">
+				<?php printf( __( 'Website Designed and Developed by Kelsey Huebner in Association with %s', 'lowermedia' ), 'LowerMedia' ); ?>
 			</a>
 		</div><!-- .site-info -->
 		
