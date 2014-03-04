@@ -23,7 +23,7 @@
 		</div>
 
 		<div class="site-info">
-			<p>Copyright © 2014, H2Odry.com, All Rights Reserved</p>
+			<p>Copyright © <?php the_date('Y') ?>, H2Odry.com, All Rights Reserved</p>
 		
 			<?php //do_action( 'twentytwelve_credits' ); ?>
 			<a href="<?php echo esc_url( __( 'http://lowermedia.net/', 'lowermedia' ) ); ?>" title="<?php esc_attr_e( 'Primo Web Applications', 'lowermedia' ); ?>">
