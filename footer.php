@@ -12,7 +12,7 @@
 	</div><!-- #main .wrapper -->
 	<footer id="colophon" role="contentinfo">
 		<div id='footer-left' class='footer-left'>
-			<img src='/wp-content/uploads/2014/03/h2-dry-iphone-waterproof-case.png' />
+			<img src='/wp-content/themes/h20-twentytwelvechild/h2-dry-iphone-waterproof-case.png' />
 		</div>
 		<div id='footer-right' class='footer-right'>
 			<nav id="footer-navigation" class="footer-navigation" role="navigation">
