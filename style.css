@@ -15,6 +15,7 @@
 /* =Theme customization starts here
 -------------------------------------------------------------- */
 
+/*------H#------*/
 h2 {
 	font-size: 20px;
 	text-align:center;
@@ -26,52 +27,68 @@ h2 span {
 	font-weight: bold;
 }
 
+/*------SITE-BODY-HTML------*/
 .site {
 	margin: 0 auto;
 	box-shadow: none;
 }
 
-.site-header {padding:0;}
-
-.header-image {width: 100%;}
-
-.main-navigation {
-	border-bottom: 1px solid #ededed;
-	border-top: 1px solid #ededed;
-	margin-top:0px;
-}
-
-.menu-sub-header-main-menu-container {
-	width: 68.571428571rem;
-	margin: auto;
-}
-
-.main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {border:none;}
-
 .home .site-content {width:100%;}
 
-.menu-social-media-header-top-menu-container {
-	position:relative;
-	float:right;
-	top: 65px;
-	right: 90px;
+
+/*------HEADER------*/
+.site-header {padding:0;}
+
+.header-image {
+	margin-top:0;
+	width: 100%;
 }
 
-.menu-social-media-header-top-menu-container li {
-	display:inline-block;
-	float:left;
-	margin:0 10px;
-}
+/*------MENU-NAVIGATION------*/
+
+	/*------HEADER-NAV------*/
+
+		.main-navigation {
+			border-bottom: 1px solid #ededed;
+			border-top: 1px solid #ededed;
+			margin-top:0px;
+		}
+
+		.menu-sub-header-main-menu-container {
+			width: 68.571428571rem;
+			margin: auto;
+		}
+
+		.main-navigation ul.nav-menu, 
+		.main-navigation div.nav-menu > ul {border:none;}
+
+	/*------SOCIALMEDIA-NAV------*/
+
+		.menu-social-media-header-top-menu-container {
+			position:relative;
+			float:right;
+			top: 65px;
+			right: 90px;
+		}
+
+		.menu-social-media-header-top-menu-container li {
+			display:inline-block;
+			margin:0 20px;
+		}
+
+	/*------FOOTER-NAV------*/
+
+		.footer-navigation .menu-item {
+			width: 25%;
+			float: left;
+		}
+
+/*------FOOTER------*/
 
 .footer-left {
 	float: left;
 	height: 120px;
 	width: 25%;
-}
-
-footer .menu-item {
-	width: 25%;
-	float: left;
 }
 
 footer .site-info {
