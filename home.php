@@ -13,7 +13,6 @@ get_header(); ?>
 	<div id="primary" class="site-content">
 		<div id="content" role="main">
 			<section id='slider-section' class='content-section slider-section' >
-				<h2>Live </span>Waterproof</span></h2>
 				<?php echo do_shortcode('[meteor_slideshow slideshow="homepage"]'); ?>
 			</section>
 			<section id='device-section' class='content-section device-section' >
