@@ -33,9 +33,12 @@ h2 span {
 .site {
 		margin: 0 auto;
 		box-shadow: none;
-		width:100%;
-		max-width:100%;
 	}
+
+.home .site {
+	width:100%;
+	max-width:100%;
+}	
 
 .home .site-content {width:100%;}
 
@@ -91,6 +94,13 @@ h2 span {
 				width: 25%;
 				float: left;
 			}
+
+
+/*------SITE/CONTENT/PRIMARY/MAIN------*/
+
+.home .meteor-slides .mslide img {
+	width: 100%;
+}
 
 /*------FOOTER------*/
 
