@@ -57,5 +57,5 @@
 	</header><!-- #masthead -->
 
 <div id="page" class="hfeed site">
-
 	<div id="main" class="wrapper">
+		<h2 id='submain-tagline' class='submain-tagline'>Live </span>Waterproof</span></h2>
