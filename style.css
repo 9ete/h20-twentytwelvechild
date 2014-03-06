@@ -33,6 +33,8 @@ h2 span {
 .site {
 		margin: 0 auto;
 		box-shadow: none;
+		width:100%;
+		max-width:100%;
 	}
 
 .home .site-content {width:100%;}
