@@ -16,8 +16,16 @@ get_header(); ?>
 				<?php echo do_shortcode('[meteor_slideshow slideshow="homepage"]'); ?>
 			</section>
 			<section id='device-section' class='content-section device-section' >
-				<h2>It's a </span>Lifestyle!</span></h2>
-
+				<h2>It's a <span>Lifestyle!</span></h2>
+				<div id='device-nav-wrap' class='device-nav-wrap'>
+					<nav id='device-featured-nav' class='device-featured-nav'>
+						<ul>
+							<li><a href='/smart-phones'>Smart Phones</a></li>
+							<li><a href='/ipad-minis'>iPad Minis/eReaders</a></li>
+							<li><a href='/ipad-tablet'>iPads/Tablets</a></li>
+						</ul>
+					</nav>
+				</div>
 				<p>
 					H20dry Smart Phone and iPad Cases allow you to maintain your busy lifestyle while working, having fun or
 
@@ -28,6 +36,12 @@ get_header(); ?>
 
 					phones currently on the market.
 				</p>
+			</section>
+			<section id='healthcare-section' class='content-section healthcare-section' >
+				<h2><span>H20dry</span> for Healthcare</h2>
+				<img src='' />
+				<img src='' />
+				<img src='' />
 			</section>
 			
 
