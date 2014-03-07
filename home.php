@@ -39,9 +39,9 @@ get_header(); ?>
 			</section>
 			<section id='healthcare-section' class='content-section healthcare-section' >
 				<h2><span>H20dry</span> for Healthcare</h2>
-				<img src='' />
-				<img src='' />
-				<img src='' />
+				<img src='http://h20dry.petelower.com/wp-content/uploads/2014/03/nurse4.jpg' />
+				<img src='http://h20dry.petelower.com/wp-content/uploads/2014/03/nurse4.jpg' />
+				<img src='http://h20dry.petelower.com/wp-content/uploads/2014/03/nurse4.jpg' />
 			</section>
 			
 
