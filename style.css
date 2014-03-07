@@ -24,6 +24,7 @@ h2 {
 		text-align:center;
 		text-transform: uppercase;
 		font-weight:100;
+		padding: 40px 0;
 	}
 
 h2 span {
@@ -31,7 +32,7 @@ h2 span {
 	}
 
 .device-section h2 {
-		padding: 40px 0;
+		
 	}
 
 .home .submain-tagline { /*--h2--*/
@@ -39,6 +40,7 @@ h2 span {
 		position: relative;
 		z-index: 2;
 		height: 0;
+		padding: 0;
 	}
 
 
@@ -155,6 +157,20 @@ h2 span {
 			text-align: justify;
 		}
 	
+	.page-middle img {
+			margin: 1%;
+			border: 2px solid grey;
+			width: 31%;
+		}
+	
+	.page-middle img:first-child {
+			margin-left: 0;
+		}
+		
+	.page-middle img:last-child {
+			margin-right: 0;
+		}
+	
 	.entry-header .entry-title {
 			color:#0068C8;
 			font-size:1.75em;
@@ -163,13 +179,19 @@ h2 span {
 
 /*------FOOTER------*/
 
+	.footer.colophon {
+			width:100%;
+			max-width:100%;
+			border:none;
+		}
+
 	.footer-left {
 			float: left;
 			height: 120px;
 			width: 25%;
 		}
 	
-	footer .site-info {
+	.footer .site-info {
 			clear: both;
 			text-align: center;
 		}
