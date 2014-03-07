@@ -26,7 +26,7 @@ get_header(); ?>
 						</ul>
 					</nav>
 				</div>
-				<p>
+				<p class='page-middle'>
 					H20dry Smart Phone and iPad Cases allow you to maintain your busy lifestyle while working, having fun or
 
 					BOTH! H2Odry cases protect your device from dust, dirt and water and allow full functionality while using 
@@ -39,9 +39,11 @@ get_header(); ?>
 			</section>
 			<section id='healthcare-section' class='content-section healthcare-section' >
 				<h2><span>H20dry</span> for Healthcare</h2>
-				<img src='http://h20dry.petelower.com/wp-content/uploads/2014/03/nurse4.jpg' />
-				<img src='http://h20dry.petelower.com/wp-content/uploads/2014/03/nurse4.jpg' />
-				<img src='http://h20dry.petelower.com/wp-content/uploads/2014/03/nurse4.jpg' />
+				<p class='page-middle'>
+					<img src='http://h20dry.petelower.com/wp-content/uploads/2014/03/nurse4.jpg' />
+					<img src='http://h20dry.petelower.com/wp-content/uploads/2014/03/nurse4.jpg' />
+					<img src='http://h20dry.petelower.com/wp-content/uploads/2014/03/nurse4.jpg' />
+				</p>
 			</section>
 			
 
