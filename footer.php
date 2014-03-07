@@ -13,7 +13,12 @@
 	<footer id="colophon" role="contentinfo" class="footer colophon">
 		<div class="page-middle">
 			<div id='footer-left' class='footer-left'>
-				<img src='wp-content/themes/h20-twentytwelvechild/images/h20-dry-iphone-waterproof-case.png' />
+				<!-- <img src='wp-content/themes/h20-twentytwelvechild/images/h20-dry-iphone-waterproof-case.png' /> -->
+				<nav id="footer-topright-menu-navigation" class="footer-topright-menu-navigation" role="navigation">
+					<h3 class="menu-toggle"><?php _e( 'Menu', 'twentytwelve' ); ?></h3>
+					<a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentytwelve' ); ?>"><?php _e( 'Skip to content', 'twentytwelve' ); ?></a>
+					<?php wp_nav_menu( array( 'theme_location' => 'header-topright-menu', 'menu_class' => 'header-topright-menu' ) ); ?>
+				</nav><!-- #header-topright-menu-navigation -->
 			</div>
 			<div id='footer-right' class='footer-right'>
 				<nav id="footer-navigation" class="footer-navigation" role="navigation">
