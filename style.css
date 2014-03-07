@@ -31,8 +31,15 @@ h2 span {
 	}
 
 .device-section h2 {
-	padding: 40px 0;
-}
+		padding: 40px 0;
+	}
+
+.home .submain-tagline { /*--h2--*/
+		top: 10px;
+		position: relative;
+		z-index: 2;
+		height: 0;
+	}
 
 
 /*------SITE-BODY-HTML------*/
