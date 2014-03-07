@@ -145,31 +145,31 @@ h2 span {
 
 /*------SITE/CONTENT/PRIMARY/MAIN------*/
 
-.home .meteor-slides .mslide img {
-	width: 100%;
-}
-
-.device-section p {
-	width: 79%;
-	margin: auto;
-	text-align: justify;
-}
-
-.entry-header .entry-title {
-	color:#0068C8;
-	font-size:1.75em;
-	font-weight:bold;
-}
+	.home .meteor-slides .mslide img {
+			width: 100%;
+		}
+	
+	.page-middle {
+			width: 79%;
+			margin: auto;
+			text-align: justify;
+		}
+	
+	.entry-header .entry-title {
+			color:#0068C8;
+			font-size:1.75em;
+			font-weight:bold;
+		}
 
 /*------FOOTER------*/
 
-.footer-left {
-		float: left;
-		height: 120px;
-		width: 25%;
-	}
-
-footer .site-info {
-		clear: both;
-		text-align: center;
-	}
+	.footer-left {
+			float: left;
+			height: 120px;
+			width: 25%;
+		}
+	
+	footer .site-info {
+			clear: both;
+			text-align: center;
+		}
