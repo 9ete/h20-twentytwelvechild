@@ -51,12 +51,18 @@ p {color:#262626}
 .site {
 		margin: 0 auto;
 		box-shadow: none;
-	}
-
-.home .site {
 		width:100%;
 		max-width:100%;
-	}	
+	}
+
+.wrapper {
+		width: 79%;
+		margin: auto;
+	}
+
+.home .wrapper {
+		width: 100%;
+	}
 
 .home .site-content {
 		width:100%;
