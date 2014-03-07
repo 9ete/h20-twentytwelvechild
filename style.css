@@ -47,7 +47,10 @@ h2 span {
 		max-width:100%;
 	}	
 
-.home .site-content {width:100%;}
+.home .site-content {
+		width:100%;
+		margin:0;
+	}
 
 
 /*------HEADER------*/
