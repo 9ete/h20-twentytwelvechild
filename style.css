@@ -89,6 +89,11 @@ h2 span {
 
 		.main-navigation ul.nav-menu, 
 		.main-navigation div.nav-menu > ul {border:none;}
+		
+		.main-navigation li a {
+				font-size:1rem;
+				text-transform:none;
+			}
 
 	/*------SOCIALMEDIA-NAV------*/
 
@@ -96,7 +101,7 @@ h2 span {
 				position:relative;
 				float:right;
 				top: 65px;
-				right: 90px;
+				right: 10%;
 				height:0;
 			}
 
@@ -111,17 +116,24 @@ h2 span {
 				background: lightgrey;
 				border-bottom: 2px solid grey;
 				border-top: 2px solid grey;
+				margin-bottom:40px;
 			}
 		.device-featured-nav {
-			width:80%;
-			margin:auto;
-		}
+				width:80%;
+				margin:auto;
+			}
 
 		.device-featured-nav ul li {
-			width: 30%;
-			float: left;
-			height: 100px;
-		}
+				width: 32.5%;
+				float: left;
+				height: 100px;
+				border-left: 2px solid grey;
+				text-align:center;
+			}
+		
+		.device-featured-nav ul li:last-child {
+				border-right: 2px solid grey;
+			}
 
 	/*------FOOTER-NAV------*/
 
