@@ -56,6 +56,7 @@ p {
 		box-shadow: none;
 		width:100%;
 		max-width:100%;
+		padding:0;
 	}
 
 .wrapper {
@@ -233,7 +234,8 @@ p {
 			width:100%;
 			max-width:100%;
 			border:none;
-			background-image: url(images/water_footer_h2odry_phone_cases_colors_waterproof-1024x273.png);
+			background-image: url(images/water_footer_h2odry_phone_cases_colors_waterproof.png);
+			background-position: 0 40%;
 		}
 
 	.footer-left {
