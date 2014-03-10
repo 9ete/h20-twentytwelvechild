@@ -19,15 +19,15 @@ get_header(); ?>
 				<h2>It's a <span>Lifestyle!</span></h2>
 				<div id='device-image-wrap' class='device-image-wrap'>
 					<div id='first-img-wrap' class='device-img-wrap first-img-wrap'>
-						<div class='device-img-txt'><p>Check it out!</p></div>
+						<div id='first-text-wrap' class='device-img-txt'><p>Check it out!</p></div>
 						<a href='/smart-phones'><img src='/wp-content/themes/h20-twentytwelvechild/images/h2odry_iphone_samsung_smartphone_case_waterproof_bacteria_free.png' /></a>
 					</div>
 					<div id='second-img-wrap' class='device-img-wrap second-img-wrap'>
-						<div class='device-img-txt'><p>Check it out!</p></div>
+						<div id='second-text-wrap' class='device-img-txt'><p>Check it out!</p></div>
 						<a href='/ipad-minis'><img src='/wp-content/themes/h20-twentytwelvechild/images/h20dry_ipad_mini_ereader_waterproof_case.png' /></a>
 					</div>
 					<div id='third-img-wrap' class='device-img-wrap third-img-wrap'>
-						<div class='device-img-txt'><p>Check it out!</p></div>
+						<div id='third-text-wrap' class='device-img-txt'><p>Check it out!</p></div>
 						<a href='/ipad-tablet'><img src='/wp-content/themes/h20-twentytwelvechild/images/h2odry_ipad_cases_waterproof.png' /></a>
 					</div>
 				</div>
