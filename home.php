@@ -22,10 +22,10 @@ get_header(); ?>
 						<a href='/smart-phones'><img src='/wp-content/themes/h20-twentytwelvechild/images/h2odry_iphone_samsung_smartphone_case_waterproof_bacteria_free.png' /></a>
 					</div>
 					<div id='second-img-wrap' class='device-img-wrap second-img-wrap'>
-						<a href='/ipad-minis'><img src='/wp-content/themes/images/h20dry_ipad_mini_ereader_waterproof_case.png' /></a>
+						<a href='/ipad-minis'><img src='/wp-content/themes/h20-twentytwelvechild/images/h20dry_ipad_mini_ereader_waterproof_case.png' /></a>
 					</div>
 					<div id='third-img-wrap' class='device-img-wrap third-img-wrap'>
-						<a href='/ipad-tablet'><img src='/wp-content/themes/images/h2odry_ipad_cases_waterproof.png' /></a>
+						<a href='/ipad-tablet'><img src='/wp-content/themes/h20-twentytwelvechild/images/h2odry_ipad_cases_waterproof.png' /></a>
 					</div>
 				</div>
 				<div id='device-nav-wrap' class='device-nav-wrap'>
