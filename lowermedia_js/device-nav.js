@@ -1,4 +1,5 @@
 jQuery(function() {
+  if (jQuery("body").hasClass("home")) {
     jQuery( "#first-link-wrap" ).hover(
       function() {
         jQuery( "#first-img-wrap" ).animate({
@@ -61,5 +62,5 @@ jQuery(function() {
         return false;
       }
     );
-
+  }
 });

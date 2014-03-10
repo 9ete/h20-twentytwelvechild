@@ -34,19 +34,19 @@ get_header(); ?>
 				<div id='device-image-wrap' class='device-image-wrap'>
 					<div id='first-img-wrap' class='device-img-wrap first-img-wrap'>
 						<div class='device-img-txt'><p>Check it out!</p></div>
-						<a href='/smart-phones'><img src='/wp-content/themes/h20-twentytwelvechild/images/h2odry_iphone_samsung_smartphone_case_waterproof_bacteria_free.png' /></a>
+						<a href='/smart-phones'><img src='/wp-content/themes/h20-twentytwelvechild/images/h2odry_phone_water_pool_swim_underwater_case_waterproof.jpg' /></a>
 					</div>
 					<div id='second-img-wrap' class='device-img-wrap second-img-wrap'>
 						<div class='device-img-txt'><p>Check it out!</p></div>
-						<a href='/ipad-minis'><img src='/wp-content/themes/h20-twentytwelvechild/images/h20dry_ipad_mini_ereader_waterproof_case.png' /></a>
+						<a href='/ipad-minis'><img src='/wp-content/themes/h20-twentytwelvechild/images/h2odry_phone_water_pool_swim_underwater_case_waterproof.jpg' /></a>
 					</div>
 					<div id='third-img-wrap' class='device-img-wrap third-img-wrap'>
 						<div class='device-img-txt'><p>Check it out!</p></div>
-						<a href='/ipad-tablet'><img src='/wp-content/themes/h20-twentytwelvechild/images/h2odry_ipad_cases_waterproof.png' /></a>
+						<a href='/ipad-tablet'><img src='/wp-content/themes/h20-twentytwelvechild/images/h2odry_phone_water_pool_swim_underwater_case_waterproof.jpg' /></a>
 					</div>
 					<div id='fourth-img-wrap' class='device-img-wrap fourth-img-wrap'>
 						<div class='device-img-txt'><p>Check it out!</p></div>
-						<a href='/ipad-tablet'><img src='/wp-content/themes/h20-twentytwelvechild/images/h2odry_ipad_cases_waterproof.png' /></a>
+						<a href='/ipad-tablet'><img src='/wp-content/themes/h20-twentytwelvechild/images/h2odry_phone_water_pool_swim_underwater_case_waterproof.jpg' /></a>
 					</div>
 				</div>
 				<div id='device-nav-wrap' class='device-nav-wrap'>

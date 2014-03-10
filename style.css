@@ -233,6 +233,11 @@ p {
 
 		.device-image-wrap div.show-device .device-img-txt {display:block;}
 
+		.page-template-smart-phones-php .device-img-wrap img {width: 100%;}
+
+		.page-template-smart-phones-php .device-image-wrap .device-img-wrap { top:0; }
+
+		.page-template-smart-phones-php .device-image-wrap { margin-top:0; }
 
 	/*------FOOTER-NAV------*/
 
