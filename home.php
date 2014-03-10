@@ -17,12 +17,31 @@ get_header(); ?>
 			</section>
 			<section id='device-section' class='content-section device-section' >
 				<h2>It's a <span>Lifestyle!</span></h2>
+				<div id='device-image-wrap' class='device-image-wrap'>
+					<div id='first-img-wrap' class='device-img-wrap first-img-wrap'>
+						<a href='/smart-phones'><img src='/wp-content/themes/h20-twentytwelvechild/images/h2odry_iphone_samsung_smartphone_case_waterproof_bacteria_free.png' /></a>
+					</div>
+					<div id='second-img-wrap' class='device-img-wrap second-img-wrap'>
+						<a href='/ipad-minis'><img src='/wp-content/themes/images/h20dry_ipad_mini_ereader_waterproof_case.png' /></a>
+					</div>
+					<div id='third-img-wrap' class='device-img-wrap third-img-wrap'>
+						<a href='/ipad-tablet'><img src='/wp-content/themes/images/h2odry_ipad_cases_waterproof.png' /></a>
+					</div>
+				</div>
 				<div id='device-nav-wrap' class='device-nav-wrap'>
 					<nav id='device-featured-nav' class='device-featured-nav'>
 						<ul>
-							<li><a href='/smart-phones'>Smart Phones</a></li>
-							<li><a href='/ipad-minis'>iPad Minis/eReaders</a></li>
-							<li><a href='/ipad-tablet'>iPads/Tablets</a></li>
+							<li>
+								<div id='first-link-wrap' class='device-link-wrap first-link-wrap'>
+									<a href='/smart-phones'>Smart Phones</a>
+								</div>
+							</li>
+							<li>
+								<a href='/ipad-minis'>iPad Minis/eReaders</a>
+							</li>
+							<li>
+								<a href='/ipad-tablet'>iPads/Tablets</a>
+							</li>
 						</ul>
 					</nav>
 				</div>
