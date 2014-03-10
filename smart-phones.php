@@ -54,22 +54,22 @@ get_header(); ?>
 						<ul>
 							<li>
 								<div id='first-link-wrap' class='device-link-wrap first-link-wrap'>
-									<a href='/smart-phones'>Smart Phones</a>
+									<a href='/smart-phones'>iPhone 4/4s</a>
 								</div>
 							</li>
 							<li>
 								<div id='second-link-wrap' class='device-link-wrap second-link-wrap'>
-									<a href='/ipad-minis'>iPad Minis/eReaders</a>
+									<a href='/ipad-minis'>iPhone 5/5c/5s</a>
 								</div>
 							</li>
 							<li>
 								<div id='third-link-wrap' class='device-link-wrap third-link-wrap'>
-									<a href='/ipad-tablet'>iPads/Tablets</a>
+									<a href='/ipad-tablet'>Smart Phones</a>
 								</div>
 							</li>
 							<li>
 								<div id='fourth-link-wrap' class='device-link-wrap fourth-link-wrap'>
-									<a href='/ipad-tablet'>iPads/Tablets</a>
+									<a href='/ipad-tablet'>Large Smart Phones</a>
 								</div>
 							</li>
 						</ul>
