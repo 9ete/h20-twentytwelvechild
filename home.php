@@ -19,12 +19,15 @@ get_header(); ?>
 				<h2>It's a <span>Lifestyle!</span></h2>
 				<div id='device-image-wrap' class='device-image-wrap'>
 					<div id='first-img-wrap' class='device-img-wrap first-img-wrap'>
+						<div class='device-img-txt'><p>Check it out!</p></div>
 						<a href='/smart-phones'><img src='/wp-content/themes/h20-twentytwelvechild/images/h2odry_iphone_samsung_smartphone_case_waterproof_bacteria_free.png' /></a>
 					</div>
 					<div id='second-img-wrap' class='device-img-wrap second-img-wrap'>
+						<div class='device-img-txt'><p>Check it out!</p></div>
 						<a href='/ipad-minis'><img src='/wp-content/themes/h20-twentytwelvechild/images/h20dry_ipad_mini_ereader_waterproof_case.png' /></a>
 					</div>
 					<div id='third-img-wrap' class='device-img-wrap third-img-wrap'>
+						<div class='device-img-txt'><p>Check it out!</p></div>
 						<a href='/ipad-tablet'><img src='/wp-content/themes/h20-twentytwelvechild/images/h2odry_ipad_cases_waterproof.png' /></a>
 					</div>
 				</div>
@@ -37,10 +40,14 @@ get_header(); ?>
 								</div>
 							</li>
 							<li>
-								<a href='/ipad-minis'>iPad Minis/eReaders</a>
+								<div id='second-link-wrap' class='device-link-wrap second-link-wrap'>
+									<a href='/ipad-minis'>iPad Minis/eReaders</a>
+								</div>
 							</li>
 							<li>
-								<a href='/ipad-tablet'>iPads/Tablets</a>
+								<div id='third-link-wrap' class='device-link-wrap third-link-wrap'>
+									<a href='/ipad-tablet'>iPads/Tablets</a>
+								</div>
 							</li>
 						</ul>
 					</nav>
@@ -59,9 +66,9 @@ get_header(); ?>
 			<section id='healthcare-section' class='content-section healthcare-section' >
 				<h2><span>H20dry</span> for Healthcare</h2>
 				<p class='page-middle'>
-					<img src='http://h20dry.petelower.com/wp-content/uploads/2014/03/nurse4.jpg' />
-					<img src='http://h20dry.petelower.com/wp-content/uploads/2014/03/nurse4.jpg' />
-					<img src='http://h20dry.petelower.com/wp-content/uploads/2014/03/nurse4.jpg' />
+					<img src='/wp-content/themes/h20-twentytwelvechild/images/wash-ipad-h2o-dry-iphone-case.jpg' />
+					<img src='/wp-content/themes/h20-twentytwelvechild/images/nurse-healthcare-ipad-h2o-dry-iphone-case.jpg' />
+					<img src='/wp-content/themes/h20-twentytwelvechild/images/wash-iphone-h2o-dry-ipad-case.jpg' />
 				</p>
 			</section>
 			

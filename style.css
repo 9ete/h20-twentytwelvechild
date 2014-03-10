@@ -22,17 +22,18 @@ h2 {
 		color:#09B2ED;
 		font-size:1.75em;
 		text-align:center;
-		text-transform: uppercase;
+		text-transform: capitalize;
 		font-weight:100;
 		padding: 40px 0;
 	}
 
 h2 span {
-		font-weight: 800;
+		font-style: italic;
 	}
 
-.device-section h2 {
-		
+.healthcare-section h2 span {
+		font-style: inherit;
+		font-weight: 900;
 	}
 
 .home .submain-tagline { /*--h2--*/
@@ -153,6 +154,8 @@ p {
 				border-bottom: 1px solid #939598;
 				border-top: 1px solid #939598;
 				margin-bottom:40px;
+				position: relative;
+				z-index: 2;
 			}
 		.device-featured-nav {
 				width:80%;
@@ -181,14 +184,42 @@ p {
 			}
 
 		.device-image-wrap {
-			width:79%;
-			margin:auto;
-		}
+				width: 79%;
+				margin: auto;
+				display: block;
+				position: relative;
+				margin-top:-90px;
+			}
 
-		.device-image-wrap div {
-			display:inline-block;
-			width:30%;
-		}
+		.device-image-wrap .device-img-wrap {
+				display: inline-block;
+				width: 32.5%;
+				top: 140px;
+				z-index: 1;
+				position: relative;
+			}
+
+		.device-img-txt {
+				background: blue;
+				text-shadow: 1px 1px black;
+				top: 150px;
+				position: absolute;
+				width: 100%;
+				text-align: center;
+			}
+
+		.device-img-txt p {
+				color: white;
+				text-align:center;
+			}
+
+		.device-image-wrap div.show-device {
+				top: 30px;
+			}
+
+		.device-img-txt {display:none;}
+
+		.device-image-wrap div.show-device .device-img-txt {display:block;}
 
 
 	/*------FOOTER-NAV------*/
@@ -248,12 +279,13 @@ p {
 			max-width:100%;
 			border:none;
 			background-image: url(images/water_footer_h2odry_phone_cases_colors_waterproof.png);
-			background-position: 0 40%;
+			background-size: 100%;
+			background-position: 1px 30%;
 		}
 
 	.footer-left {
 			float: left;
-			height: 120px;
+			height: 250px;
 			width: 25%;
 		}
 	
