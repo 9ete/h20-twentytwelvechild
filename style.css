@@ -29,6 +29,7 @@ h2 {
 
 h2 span {
 		font-style: italic;
+		font-weight: bold;
 	}
 
 .healthcare-section h2 span {
@@ -44,11 +45,14 @@ h2 span {
 		padding: 0;
 	}
 
-
 p {
-	color:#262626;
-	line-height:1.5em;
-}
+		color:#262626;
+		line-height:1.5em;
+	}
+
+a {
+		text-decoration: none;
+	}
 
 /*------SITE-BODY-HTML------*/
 
@@ -64,6 +68,7 @@ p {
 			width: 79%;
 			margin: auto;
 			text-align: justify;
+			line-height: 1.75em;
 		}
 
 .home .wrapper, .page-template-smart-phones-php .wrapper {
@@ -81,6 +86,7 @@ p {
 .site-header {
 		position: relative;
 		padding:0;
+		z-index:2;
 	}
 
 .header-image {
@@ -96,6 +102,7 @@ p {
 				border-bottom: 1px solid #ededed;
 				border-top: 1px solid #ededed;
 				margin-top:0px;
+				box-shadow: 0 1px 3px #888888;
 			}
 
 		.menu-sub-header-main-menu-container {
@@ -109,6 +116,13 @@ p {
 		.main-navigation li a {
 				font-size:1rem;
 				text-transform:none;
+			}
+
+		.main-navigation .current-menu-item > a,
+		.main-navigation .current-menu-ancestor > a,
+		.main-navigation .current_page_item > a,
+		.main-navigation .current_page_ancestor > a {
+				color: #09B2ED;
 			}
 
 	/*------SOCIALMEDIA-NAV------*/
@@ -163,6 +177,12 @@ p {
 				position: relative;
 				z-index: 2;
 			}
+
+		.device-nav-wrap a:hover {
+				background: white;
+				height:100%;
+			}
+
 		.device-featured-nav {
 				width:80%;
 				margin:auto;
@@ -190,12 +210,12 @@ p {
 				border-right: 1px solid #939598;
 			}
 
-		.device-featured-nav li a {
+		.device-featured-nav ul li a {
 				text-decoration: none;
-				font-size:2em;
 				color: #262626;
 				width: 100%;
 				display: block;
+				font-size:1.75em;
 			}
 
 		.device-image-wrap {
@@ -218,15 +238,30 @@ p {
 				position: absolute;
 				width: 100%;
 				text-align: center;
+				height:30px;
+				font-weight:bold;
+				background: rgb(0,44,200); /* Old browsers */
+				background: -moz-linear-gradient(left,  rgba(0,44,200,1) 0%, rgba(91,146,198,1) 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,44,200,1)), color-stop(100%,rgba(91,146,198,1))); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(left,  rgba(0,44,200,1) 0%,rgba(91,146,198,1) 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(left,  rgba(0,44,200,1) 0%,rgba(91,146,198,1) 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(left,  rgba(0,44,200,1) 0%,rgba(91,146,198,1) 100%); /* IE10+ */
+				background: linear-gradient(to right,  rgba(0,44,200,1) 0%,rgba(91,146,198,1) 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002cc8', endColorstr='#5b92c6',GradientType=1 ); /* IE6-9 */
 			}
 
 		.device-img-txt p {
 				color: white;
 				text-align:center;
+				line-height:2em;
 			}
 
 		.device-image-wrap div.show-device {
 				top: 30px;
+			}
+
+		.device-link-wrap {
+				height:100px;
 			}
 
 		.device-img-txt {display:none;}
@@ -238,6 +273,21 @@ p {
 		.page-template-smart-phones-php .device-image-wrap .device-img-wrap { top:0; }
 
 		.page-template-smart-phones-php .device-image-wrap { margin-top:0; }
+
+		.first-img-wrap .device-img-txt {
+				width:150px;
+				left:85px;
+			}
+		
+		.second-img-wrap .device-img-txt {
+				width:205px;
+				left:60px;
+			}
+		
+		.third-img-wrap .device-img-txt {
+				width:250px;
+				left:40px;
+			}
 
 	/*------FOOTER-NAV------*/
 
@@ -279,7 +329,7 @@ p {
 	.widget img, 
 	img.header-image, 
 	.author-avatar img, 
-	img.wp-post-image{
+	img.wp-post-image {
 			box-shadow: none;
 		}
 
