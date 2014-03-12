@@ -24,11 +24,11 @@ get_header(); ?>
 					</div>
 					<div id='second-img-wrap' class='device-img-wrap second-img-wrap'>
 						<div id='second-text-wrap' class='device-img-txt'><p>Check it out!</p></div>
-						<a href='/ipad-minis'><img src='/wp-content/themes/h20-twentytwelvechild/images/h20dry_ipad_mini_ereader_waterproof_case.png' /></a>
+						<a href='/ipad-minisereaders'><img src='/wp-content/themes/h20-twentytwelvechild/images/h20dry_ipad_mini_ereader_waterproof_case.png' /></a>
 					</div>
 					<div id='third-img-wrap' class='device-img-wrap third-img-wrap'>
 						<div id='third-text-wrap' class='device-img-txt'><p>Check it out!</p></div>
-						<a href='/ipad-tablet'><img src='/wp-content/themes/h20-twentytwelvechild/images/h2odry_ipad_cases_waterproof.png' /></a>
+						<a href='/ipadstablets'><img src='/wp-content/themes/h20-twentytwelvechild/images/h2odry_ipad_cases_waterproof.png' /></a>
 					</div>
 				</div>
 				<div id='device-nav-wrap' class='device-nav-wrap'>
@@ -41,12 +41,12 @@ get_header(); ?>
 							</li>
 							<li>
 								<div id='second-link-wrap' class='device-link-wrap second-link-wrap'>
-									<a href='/ipad-minis'>iPad Minis/eReaders</a>
+									<a href='/ipad-minisereaders'>iPad Minis/eReaders</a>
 								</div>
 							</li>
 							<li>
 								<div id='third-link-wrap' class='device-link-wrap third-link-wrap'>
-									<a href='/ipad-tablet'>iPads/Tablets</a>
+									<a href='/ipadstablets'>iPads/Tablets</a>
 								</div>
 							</li>
 						</ul>
