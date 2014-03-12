@@ -37,7 +37,9 @@
 	<nav id="header-topright-menu-navigation" class="header-topright-menu-navigation" role="navigation">
 		<h3 class="menu-toggle"><?php _e( 'Menu', 'twentytwelve' ); ?></h3>
 		<a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentytwelve' ); ?>"><?php _e( 'Skip to content', 'twentytwelve' ); ?></a>
-		<?php wp_nav_menu( array( 'theme_location' => 'header-topright-menu', 'menu_class' => 'header-topright-menu' ) ); ?>
+		<?php 
+			//wp_nav_menu( array( 'theme_location' => 'header-topright-menu', 'menu_class' => 'header-topright-menu' ) ); 
+		?>
 	</nav><!-- #header-topright-menu-navigation -->
 
 	<?php if ( get_header_image() ) : ?>

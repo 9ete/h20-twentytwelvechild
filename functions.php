@@ -9,7 +9,8 @@
 function lowermedia_register_menus() {
   register_nav_menus(
     array(
-      'header-topright-menu' => __( 'Header Top Right Menu' ),
+      //'header-topright-menu' => __( 'Header Top Right Menu' ),
+      'footer-left-menu' => __( 'Footer Left Menu' ),
       'footer-menu' => __( 'Footer Menu' )
     )
   );
