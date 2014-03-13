@@ -27,9 +27,9 @@
 	<?php // Check for slides
 	
 	if ( $meteor_loop->have_posts() ) : ?>
-	
+	<p><?php the_title(); ?></p>
 	<div id="meteor-slideshow<?php echo $slideshow; ?>" class="meteor-slides <?php
-	
+		
 		// Adds classes to slideshow
 	
 		echo $slideshow . ' ' . $meteor_nav;
