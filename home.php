@@ -55,18 +55,11 @@ get_header(); ?>
 					</div>
 				</div>
 				<p class='page-middle'>
-					H20dry Smart Phone and iPad Cases allow you to maintain your busy lifestyle while working, having fun or
-
-					BOTH! H2Odry cases protect your device from dust, dirt and water and allow full functionality while using 
-
-					your device at any number of outdoor activities including at the beach, pool, fishing, skiing, kayaking, raft-
-					ing, snow skiing or even in a relaxing bath! We offer serval different sizes of cell phone cases to fit all smart 
-
-					phones currently on the market.
+					H20dry Smart Phone and iPad Cases allow you to maintain your busy lifestyle while working, having fun or BOTH! H2Odry cases protect your device from dust, dirt and water and allow full functionality while using your device at any number of outdoor activities including at the beach, pool, fishing, skiing, kayaking, rafting, snow skiing or even in a relaxing bath! We offer several different sizes of cell phone cases to fit all smart phones currently on the market.
 				</p>
 			</section>
 			<section id='healthcare-section' class='content-section healthcare-section' >
-				<h2><span>H20dry</span> for Healthcare</h2>
+				<h2><a href='/health-care'><span>H2Odry</span> for Health Care</a></h2>
 				<p class='page-middle'>
 					<img src='/wp-content/themes/h20-twentytwelvechild/images/wash-ipad-h2o-dry-iphone-case.jpg' />
 					<img src='/wp-content/themes/h20-twentytwelvechild/images/nurse-healthcare-ipad-h2o-dry-iphone-case.jpg' />

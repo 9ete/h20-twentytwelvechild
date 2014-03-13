@@ -142,11 +142,11 @@ a {
 
 		.menu-social-media-header-top-menu-container li {
 				display:inline-block;
-				margin:0 10px;
 			}
 		
 		.menu-social-media-header-top-menu-container .menu-item {
 				background-size: 36px 36px;
+				float:left;
 			}
 		
 		.menu-social-media-header-top-menu-container .menu-item a {
@@ -159,6 +159,15 @@ a {
 		.menu-item-65 {background-image: url(images/facebook-icon-lowermedia.png);}
 		.menu-item-66 {background-image: url(images/twitter-icon-lowermedia.png);}
 		.menu-item-67 {background-image: url(images/youtube-icon-lowermedia.png);}
+		
+		.menu-social-media-header-top-menu-container .menu-item-66, .menu-social-media-header-top-menu-container .menu-item-67 {
+				background-size: 76px auto;
+			}
+			
+		.menu-social-media-header-top-menu-container .menu-item-66 a, .menu-social-media-header-top-menu-container .menu-item-67 a {
+				height: 37px;
+				width: 76px;
+			}
 
 	/*------DEVICE-NAV------*/
 
@@ -179,7 +188,18 @@ a {
 			}
 		
 		@media all and (max-width: 699px) and (min-width: 0px) {
-			  .device-nav-wrap-holder, .device-image-wrap {display:none;}
+				.device-image-wrap {display:none;}
+				
+				.home .device-nav-wrap .device-featured-nav li {
+						width: 100%;
+						border-left: none;
+					}
+				
+				.home .device-section .device-nav-wrap-holder {
+						background: #FFF;
+						width: 100%;
+						height: 320px;
+					}
 			}	
 			
 
