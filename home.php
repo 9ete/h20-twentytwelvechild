@@ -31,26 +31,28 @@ get_header(); ?>
 						<a href='/ipadstablets'><img src='/wp-content/themes/h20-twentytwelvechild/images/h2odry_ipad_cases_waterproof.png' /></a>
 					</div>
 				</div>
-				<div id='device-nav-wrap' class='device-nav-wrap'>
-					<nav id='device-featured-nav' class='device-featured-nav'>
-						<ul>
-							<li>
-								<div id='first-link-wrap' class='device-link-wrap first-link-wrap'>
-									<a href='/smart-phones'>Smart Phones</a>
-								</div>
-							</li>
-							<li>
-								<div id='second-link-wrap' class='device-link-wrap second-link-wrap'>
-									<a href='/ipad-minisereaders'>iPad Minis/eReaders</a>
-								</div>
-							</li>
-							<li>
-								<div id='third-link-wrap' class='device-link-wrap third-link-wrap'>
-									<a href='/ipadstablets'>iPads/Tablets</a>
-								</div>
-							</li>
-						</ul>
-					</nav>
+				<div id='device-nav-wrap-holder' class='device-nav-wrap-holder'> <!-- Used to hide overflow of phone images when on mobile -->
+					<div id='device-nav-wrap' class='device-nav-wrap'>
+						<nav id='device-featured-nav' class='device-featured-nav'>
+							<ul>
+								<li>
+									<div id='first-link-wrap' class='device-link-wrap first-link-wrap'>
+										<a href='/smart-phones'>Smart Phones</a>
+									</div>
+								</li>
+								<li>
+									<div id='second-link-wrap' class='device-link-wrap second-link-wrap'>
+										<a href='/ipad-minisereaders'>iPad Minis/eReaders</a>
+									</div>
+								</li>
+								<li>
+									<div id='third-link-wrap' class='device-link-wrap third-link-wrap'>
+										<a href='/ipadstablets'>iPads/Tablets</a>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</div>
 				</div>
 				<p class='page-middle'>
 					H20dry Smart Phone and iPad Cases allow you to maintain your busy lifestyle while working, having fun or

@@ -162,6 +162,27 @@ a {
 
 	/*------DEVICE-NAV------*/
 
+		.device-nav-wrap-holder {
+				background: #FFF;
+				width: 100%;
+				height: 160px;
+				position: relative;
+				z-index: 10;
+			}
+			
+		@media all and (min-width: 1001px) {
+			  .device-nav-wrap-holder, .device-image-wrap {display:block;}
+			}
+		
+		@media all and (max-width: 1000px) and (min-width: 700px) {
+			  .device-nav-wrap-holder, .device-image-wrap {display:block;}
+			}
+		
+		@media all and (max-width: 699px) and (min-width: 0px) {
+			  .device-nav-wrap-holder, .device-image-wrap {display:none;}
+			}	
+			
+
 		.device-nav-wrap {
 				background: rgb(239,241,244); /* Old browsers */
 				background: -moz-linear-gradient(top,  rgba(239,241,244,1) 0%, rgba(255,255,255,1) 50%, rgba(239,241,244,1) 100%); /* FF3.6+ */
@@ -219,9 +240,13 @@ a {
 			}
 
 		.device-image-wrap {
-				display: block;
 				position: relative;
 				margin-top:-90px;
+			}
+			
+		.device-image-wrap img	{
+				width: 100%;
+				margin: auto;
 			}
 
 		.device-image-wrap .device-img-wrap {
@@ -274,20 +299,7 @@ a {
 
 		.page-template-smart-phones-php .device-image-wrap { margin-top:0; }
 
-		.first-img-wrap .device-img-txt {
-				width:150px;
-				left:85px;
-			}
-		
-		.second-img-wrap .device-img-txt {
-				width:205px;
-				left:60px;
-			}
-		
-		.third-img-wrap .device-img-txt {
-				width:250px;
-				left:40px;
-			}
+		.device-img-wrap .device-img-txt {width:100%}
 
 	/*------FOOTER-NAV------*/
 

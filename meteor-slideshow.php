@@ -27,9 +27,9 @@
 	<?php // Check for slides
 	
 	if ( $meteor_loop->have_posts() ) : ?>
-	<?php if (!is_front_page()) { ?><p><?php the_title(); ?></p> <?php } ?>
+	
 	<div id="meteor-slideshow<?php echo $slideshow; ?>" class="meteor-slides <?php
-		
+	
 		// Adds classes to slideshow
 	
 		echo $slideshow . ' ' . $meteor_nav;
@@ -143,6 +143,8 @@
 					<?php the_post_thumbnail( 'featured-slide', array( 'title' => get_the_title() ) ); ?>
 					
 				<?php endif; ?>
+
+				<p><?php the_title(); ?></p>
 			
 			</div><!-- .mslide -->
 			
